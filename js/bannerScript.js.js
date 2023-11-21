@@ -4,7 +4,7 @@ function closeBanner() {
   }
   
   // Countdown timer
-  let seconds = 3; // Set the duration in seconds
+  let seconds = 5; // Set the duration in seconds
   function updateCountdown() {
     document.getElementById('countdown').innerText = seconds;
     if (seconds === 0) {
