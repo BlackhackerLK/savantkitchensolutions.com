@@ -5,42 +5,6 @@ body {
   background-color: #ffffff;
 }
 
-#responsiveBanner {
-      display: none; /* Banner is initially hidden */
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      background-color: lightblue;
-      color: black;
-      padding: 10px;
-      text-align: center;
-      z-index: 1000;
-    }
-
-    /* Close button style */
-    #closeButton {
-      cursor: pointer;
-      position: absolute;
-      top: 5px;
-      right: 10px;
-      font-weight: bold;
-    }
-.popup {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 157, 255, 0.9); /* Sky Blue background color with some transparency */
-  color: #000000; /* White text color */
-  text-align: center;
-  padding: 20px;
-  box-sizing: border-box;
-  z-index: 1000;
-}
-
 ul {
   list-style: disc;
   padding: 0;
