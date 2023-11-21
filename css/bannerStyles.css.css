@@ -1,0 +1,30 @@
+/* Styles for the banner */
+#responsiveBanner {
+    display: none; /* Banner is initially hidden */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: lightblue;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000;
+  }
+  
+  /* Close button style */
+  #closeButton {
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-weight: bold;
+  }
+  
+  /* Media query for responsive state (adjust the max-width value as needed) */
+  @media screen and (max-width: 768px) {
+    #responsiveBanner {
+      display: block; /* Show the banner only in responsive states */
+    }
+  }
+  
