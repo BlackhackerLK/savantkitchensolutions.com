@@ -24,6 +24,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/bannerStyles.css">
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 </head>
@@ -654,41 +655,21 @@
     </div>
   </section>
 
-  <!-- Popup -->
-  <div class="popup" id="languagePopup">
-    <br><br><br><br>
+   <!-- The responsive banner -->
+  <div id="responsiveBanner">
+    <span id="closeButton" onclick="closeBanner()">X</span>
+    <p>
+      <br><br><br><br>
     Change Language by Click on Three Line Symbol in Upper Right Corner.
     <br><br>
     ඉහළ දකුණු කෙළවරේ ඇති රේඛා තුනේ සංකේතය මත ක්ලික් කිරීමෙන් භාෂාව වෙනස් කරන්න.
     <br><br>
     மேல் வலது மூலையில் உள்ள மூன்று வரி சின்னத்தில் கிளிக் செய்வதன் மூலம் மொழியை மாற்றவும்.
+    </p>
+    <p id="countdown">3</p>
   </div>
 
-    <!-- The responsive banner -->
-  <div id="responsiveBanner">
-    <span id="closeButton" onclick="closeBanner()">X</span>
-    <p><br><br>
-      Change Language by Click on Three Line Symbol in Upper Right Corner.
-        <br><br>
-        ඉහළ දකුණු කෙළවරේ ඇති රේඛා තුනේ සංකේතය මත ක්ලික් කිරීමෙන් භාෂාව වෙනස් කරන්න.
-        <br><br>
-        மேல் வலது மூலையில் உள்ள மூன்று வரி சின்னத்தில் கிளிக் செய்வதன் மூலம் மொழியை மாற்றவும்.</p>
-  </div>
-
-  <script>
-    // Function to close the banner
-    function closeBanner() {
-      document.getElementById('responsiveBanner').style.display = 'none';
-    }
-
-    // Show the banner for 3 seconds after the page loads
-    document.addEventListener('DOMContentLoaded', function() {
-      document.getElementById('responsiveBanner').style.display = 'block';
-      setTimeout(function() {
-        closeBanner();
-      }, 10000);
-    });
-  </script>
+  <script src="js/bannerScript.js"></script>
   <!-- end info_section -->
 
 
