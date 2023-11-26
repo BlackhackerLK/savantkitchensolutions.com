@@ -15,6 +15,11 @@ ul {
 li {
   margin-bottom: 10px;
   margin-left: 40px;
+  color: #00adf2;
+  /*background-image: url('/images/hero-bg.jpg'); /* URL to your custom disc image */
+  /*background-repeat: no-repeat;
+  background-position: 0 50%; /* Adjust position as needed */
+  /*padding-left: 20px; /* Space for the disc image */
 }
 
 .layout_padding {
